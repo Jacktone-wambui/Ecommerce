@@ -22,12 +22,21 @@ class Productcontroller extends Controller
        $data= Product::find($id);
        return view('detail',['product'=>$data]);
     }
+    // function search(Request $req)
+    // {
+    //     $data= Product::
+    //     where('name','like','%'.$req->input('query').'%')
+    //     ->get();
+    //     return view('search',['products'=>$data]);
+    // }
     function search(Request $req)
     {
-        $data= Product::
-        where('name','like','%'.$req->input('query').'%')
+        $searchTerm = $req->input('searchTerm');
+        $products =DB::table('products')
+        ->where('name','like','%'.$searchTerm. '%')
+        ->orWhere('description','like','%'.$searchTerm. '%')
         ->get();
-        return view('search',['products'=>$data]);
+        return view('search',['products'=>$products]);
     }
     function addToCart(Request $req)
     {

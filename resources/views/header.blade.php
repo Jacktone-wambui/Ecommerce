@@ -26,11 +26,11 @@ if(Session::has('user'))
         <li class="active"><a href="#">Home</a> </li>
         <li class=""><a href="/myorders">Orders</a> </li>
       </ul>
-      <form class="navbar-form navbar-left">
+      <form class="navbar-form navbar-left" action="search" method="get">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+          <input type="text" class="form-control" name="searchTerm" placeholder="Search...">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-default">Search</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/cartlist">Cart({{$total}})</a></li>
