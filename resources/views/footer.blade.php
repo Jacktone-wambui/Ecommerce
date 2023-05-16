@@ -25,9 +25,6 @@
       <a href="" class="me-4 link-secondary">
         <i class="fab fa-linkedin"></i>
       </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-github"></i>
-      </a>
     </div>
     <!-- Right -->
   </section>
@@ -99,7 +96,7 @@
           <p><i class="fas fa-home me-3 text-secondary"></i> NAIROBI, NRB 10012, Kenya</p>
           <p>
             <i class="fas fa-envelope me-3 text-secondary"></i>
-            info@example.com
+            info@SokoLetu.com
           </p>
           <p><i class="fas fa-phone me-3 text-secondary"></i> + 254 7402 13210</p>
           <p><i class="fas fa-print me-3 text-secondary"></i> + 254  7680 26324</p>
