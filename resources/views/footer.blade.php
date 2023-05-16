@@ -17,9 +17,6 @@
         <i class="fab fa-twitter"></i>
       </a>
       <a href="" class="me-4 link-secondary">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
         <i class="fab fa-instagram"></i>
       </a>
       <a href="" class="me-4 link-secondary">
